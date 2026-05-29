@@ -1,85 +1,60 @@
-<div align="center">
-
-![DEVKiTZ](https://img.shields.io/badge/DEVKiTZ-Module-ffb800?style=for-the-badge)
-![Version](https://img.shields.io/badge/v1.0-fa1e4e?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-ffb800?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Active-00ff88?style=flat-square)
+![Module](https://img.shields.io/badge/DEVKiTZ-Module-ffb800?style=for-the-badge&labelColor=fa1e4e)
+![Version](https://img.shields.io/badge/version-v1.0.0-ffb800?style=flat-square&labelColor=0d0d14)
+![License](https://img.shields.io/badge/license-MIT-00ff88?style=flat-square&labelColor=0d0d14)
+![Status](https://img.shields.io/badge/status-active-00ff88?style=flat-square&labelColor=0d0d14)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Canvas](https://img.shields.io/badge/Canvas-API-06b6d4?style=flat-square)
 
 # Graphify
 
-**Interactive Playbook Graph for DEVKiTZ Ecosystem**
-
-</div>
+> **Interactive Playbook Graph Viewer** - Part of the [DEVKiTZ](https://github.com/D-VKITZ) Ecosystem
 
 ---
 
 ## Preview
 
 ```
-+--------------------------------------------------------------+
-|  Graphify -- Playbook Visualizer                       [x]   |
-|--------------------------------------------------------------|
-|  [Import: JSON | YAML | MD]           [Minimap]  [Filters]  |
-|--------------------------------------------------------------|
-|                                                              |
-|        o Startup                                             |
-|       / \             Force-Directed Canvas                  |
-|      o   o Deploy                                            |
-|     /|   |\                                                  |
-|    o o   o o          Nodes: 47                              |
-|   Test  Build         Links: 83                              |
-|                                                              |
-|  Deep-Link: #/node/startup-check                             |
-|  [Search]: ____________________________  [Go]                |
-+--------------------------------------------------------------+
++----------------------------------------------+
+|  Graphify             Search     Filter      |
++----------------------------------------------+
+|                                              |
+|     (Core)---------(Module)-------(Feature)  |
+|       |              |              |        |
+|       v              v              v        |
+|    (Agent)       (Script)       (Config)     |
+|       |              |              |        |
+|       +--------------+--------------+        |
+|                      |                       |
+|                   (Hub)                      |
+|                                              |
+|  +-----+                                    |
+|  |Mini |  Nodes: 47  Edges: 83  Groups: 12  |
+|  | map |                                    |
+|  +-----+                                    |
++----------------------------------------------+
 ```
-
----
 
 ## Features
 
-| Feature | Description |
-|:--------|:------------|
-| Interactive Playbook Graph | Visual knowledge graph for workflows and playbooks |
-| Force-Directed Canvas | Physics-based layout with zoom, pan and node dragging |
-| Multi-Source Import API | Import from JSON, YAML, Markdown and custom formats |
-| Minimap | Bird-eye overview with viewport indicator |
-| Deep-Linking | URL-based navigation to specific nodes and subgraphs |
-| Search and Filter | Full-text search with tag-based and type-based filtering |
-
----
-
-## Tech Stack
-
-| Technology | Purpose |
-|:-----------|:--------|
-| HTML5 | Semantic structure and SVG rendering |
-| CSS3 | DkZ Design System with amber-red theme |
-| JavaScript ES6+ | Graph engine and force simulation |
-| D3-Force | Force-directed graph layout |
-| SVG | Scalable vector node and edge rendering |
-
----
+| Status | Feature |
+|:-------|:--------|
+| Done | Force-Directed Canvas Graph Engine |
+| Done | Multi-Source Import API graphifyImport |
+| Done | Auto-Import from OpenHumans/GitNexus/MiroFish |
+| Done | Minimap Navigation |
+| Done | Category Filters and Legend |
+| Done | Node Detail Panel and Deep-Linking |
 
 ## Quick Start
 
 ```bash
 git clone https://github.com/D-VKITZ/graphify.git
-cd graphify
-# Open index.html in your browser
+open graphify/index.html
 ```
 
 ---
 
-<div align="center">
-
-**DEVKiTZ Ecosystem**
-
-[devkitz.eu](https://devkitz.eu) · [dkz.app](https://dkz.app) · [GitHub](https://github.com/D-VKITZ)
-
-Built with the DkZ Design System -- `--accent: #fa1e4e` · `--bg: #060608`
-
-</div>
+<p align="center">
+<sub>DEVKiTZ - Made with love by 777 - 2026</sub><br>
+<sub>devkitz.eu | dkz.app | github.com/D-VKITZ</sub>
+</p>
